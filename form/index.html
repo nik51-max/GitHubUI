@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+
+</head>
+<body>
+	<h2>basic form</h2>
+	<form method="post" action="mailto:saygin.guven@itdcanada.ca" enctype="text/plain">
+		full name <br>
+		<input type="text" name="full name" placeholder="hossein nikzadeh"><br>
+		email <br>
+		<input type="email" name="phonenumber" placeholder="hbmx10@gmail.ca"><br>
+		phone number <br>
+		<input type="tel" name="phonenumber"placeholder=" 604 123456"><br>
+		address <br>
+		<input type="texr" name="address" placeholder="475 granvil van"><br>
+		massege <br>
+		<textarea rows="5" cols="60" name="comment" placeholder="enter text here..."></textarea><br>
+		<input type="submit" value="submit">
+	</form>
+	<br>
+	<hr>
+
+	<h2>attributes</h2>
+	<form>
+		<input type="text" name="..." autofocus>
+		<input type="text" name="..." autocomplete="off">
+		<input type="test" name="..." style="direction: rtl">
+		<input type="number" value="150" disabled>
+		<input type="button" formtarget="black" value="submit">
+		<input style="height: 25px; width:50%;">
+
+	</form>
+	<br>
+	<hr>
+
+
+	<h1>data list</h1>
+<form>
+	<input list="browsers" name="brwosers">
+	<datalist id="browsers">
+		<option value="internet explorer">
+		<option value="firefox">
+		<option value="chorom">
+		<option value="opera">
+		<option value="safari">	
+	</datalist>
+
+	<input type="submit">
+</form>
+	<br>
+	<hr>
+
+
+	<h2>login</h2>
+	<form>
+		<div>
+			<label for="user_name">user name:</label>
+			<input type="text" name="user_name">
+		</div>
+		<div>
+			<label for="password">pasword:</label>
+			<input type="password" name="password">
+		</div>
+	</form>
+   	<br>
+   	<hr>
+
+<h1>checkbox!</h1>
+<form>
+	<input type="checkbox" name="html5"checked> HTML5
+	<input type="checkbox" name="css3" checked> CSS3
+	<input type="checkbox" name="javascript"> javascript
+	<input type="checkbox" name="bootsrapt"> bootsrapt
+</form>
+
+
+
+<br>
+<hr>
+<h1>Radio</h1>
+<form>
+	<input type="radio" name="gender"> male
+	<input type="radio" name="gender"> female
+	<input type="radio" name="gender">Rather not say
+
+</form>
+
+	<br>
+	<hr>
+
+	<form>
+	<select>
+	
+		<option value="internet explorer">internet explorer</option>
+		<option value="firefox">firefox</option>
+		<option value="chorom">chorom</option>
+		<option value="opera">opera</option>
+		<option value="safari">safari</option>
+	</select>
+	</form>
+	
+	<br>
+	<hr>
+
+	<form>
+		<input type="file" name="fileupload" accept="image/*">
+	</form>
+</body>
+</html>
